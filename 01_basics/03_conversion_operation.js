@@ -64,6 +64,8 @@
 // ++gameCounter
 // // console.log(gameCounter);
 
+
+/***** conversion ****/
 let score = "33abc"
 
 //console.log(typeof(score));
@@ -88,5 +90,44 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+/******** operations ********/
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " fuad"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2 + 3);
+// console.log(1 + 2 + "3");
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+num1 = num2 = num3 = 2+2 // not preferred 
+
+
+// prefix and postfix increment in js from mdn
+
+let x = 3
+const y = x++
+console.log(`x:${x}, y:${y}`);
+
+let a = 3
+const b = ++a
+console.log(`a:${a}, b:${b}`);

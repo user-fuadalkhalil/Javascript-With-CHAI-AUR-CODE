@@ -11,7 +11,7 @@ const temperature = 41;
 
 // console.log("Execute");
 
-// <, >,  <=, >=, ==, !=, ===, !==
+//<, >,  <=, >=, ==, !=, ===, !==
 
 // const score = 200;
 

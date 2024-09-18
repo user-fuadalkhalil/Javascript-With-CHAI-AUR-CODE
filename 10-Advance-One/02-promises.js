@@ -1,4 +1,4 @@
-const promiceOne = new Promise(function(resolve, reject) {
+const promiseOne = new Promise(function(resolve, reject) {
     // Do an async  task
     // DB calls, cryptography, network call
 
@@ -8,7 +8,7 @@ const promiceOne = new Promise(function(resolve, reject) {
     }, 1000)
 })
 
-promiceOne.then(function() {
+promiseOne.then(function() {
     console.log('Promise consumed.');
     
 })
